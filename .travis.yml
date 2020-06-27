@@ -23,7 +23,7 @@ before_deploy: "echo $AWS_ACCESS_KEY  ---  $AWS_SECRET_KEY"
 
 deploy:
   provider: elasticbeanstalk
-  region: "ca-central-1"
+  region: "us-east-2"
   app: "travisAssessment"
   env: "Travisassessment-env"
   bucket: "elasticbeanstalk-us-east-2-517280624701"
